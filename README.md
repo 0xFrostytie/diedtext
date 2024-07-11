@@ -27,7 +27,7 @@ diedtext is a Python script that overlays echo-style text on images with a faded
     pip install -r requirements.txt
     ```
 
-3. **Fonts**: Ensure that the fonts `OptimusPrinceps.ttf` and `OptimusPrincepsSemiBold.ttf` are in the `fonts` directory. If not, download and place them there.
+3. **Fonts**: Ensure that the fonts `OptimusPrinceps.ttf` and `OptimusPrincepsSemiBold.ttf` are not in the `fonts` directory but in the main. Newly downloaded fonts will be put into a directory created after first custom font used
 
 ## Usage
 
@@ -47,12 +47,12 @@ diedtext is a Python script that overlays echo-style text on images with a faded
     ```
     diedtext-main
     ├── fonts
-    │   ├── OptimusPrinceps.ttf
-    │   └── OptimusPrincepsSemiBold.ttf
     ├── images
     │   ├── demo-without.jpeg
     │   └── demo-without_output.png
     ├── diedtext.py
+    ├── OptimusPrinceps.ttf
+    ├── OptimusPrincepsSemiBold.ttf
     └── README.md
     ```
 
